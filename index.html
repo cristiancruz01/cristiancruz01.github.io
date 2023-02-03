@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Christian Cruz Desarrollador</title>
+    <link rel="icon" href="img/Logosencillo.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <title>C.Cruz Desarrollador Back-End</title>
+</head>
+<body>
+   <!-- SECCION Inicio---->  
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1><img src="img/Logosencillo.png"alt="logo"></h1>
+                    <nav id="nav" class="">
+                       <ul id="links">
+                           <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                           <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                           <li><a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a></li>
+                           <li><a href="#portafolio" onclick="seleccionar(this)">PORTAFOLIO</a></li>
+                           <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                       </ul> 
+                    </nav>
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <div class="redes">
+                        <a href="https://www.youtube.com/channel/UC2A9XBXGNpFiSEM-Kr3FVPg" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://www.facebook.com/cristian.cruz.9849/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/doulos_music/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Soy <span><img src="img/logo2.png" alt=""></span> Desarrollador Back-end</h2>
+                <p class="descripcion">Desarrollador en busca de experiencia,  apasionado por la tecnología, determinado, dispuesto siempre a aprender. En caso de desconocimiento de un proceso, genero estrategias de solución a los diferentes problemas que se presenten en mi área laboral.</p>
+            <a href="#portafolio">ir a Portafolio</a>
+            </div>
+        </div>
+ </section>
+   <!-- SECCION SOBRE MI----> 
+   <section id="sobremi">
+       <div class="contenedor-foto">
+           <img src="img/foto 4.jpg" alt="Foto_Christian_Cruz">
+       </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola, soy <span><img src="img/logo1.png" alt="logo1"></span></h2>
+            <h3>Desarrollador Back-End</h3>
+            <p>Desarrollador en busca de experiencia,  apasionado por la tecnología, determinado, dispuesto siempre a aprender. En caso de desconocimiento de un proceso, genero estrategias de solución a los diferentes problemas que se presenten en mi área laboral.</p>
+              <a href="img/hoja de vida christian (1).pdf" target="_blank">Descargar HV</a>
+        </div> 
+   </section>
+   <!-- SECCION Servicios---->
+   <section id="servicios">
+       <h3 class="titulo-seccion">MIS SERVICIOS</h3>
+       <div class="fila">
+           <div class="servicio">
+               <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Diseño de Sitios Web HTML y CSS</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>web</li>
+                    <li>Graphic</li>
+                </ul>
+                <p>Diseño de Sitios Web (Front-End) en Html y Css</p>
+           </div>
+           <div class="servicio">
+            <span class="icono"><i class="fa-solid fa-code"></i></span>
+             <h4>Programación PHP</h4>
+             <hr>
+             <ul class="servicios-tag">
+                 <li>Web</li>
+                 <li>Graphic</li>
+                 <li>Lógica</li>
+             </ul>
+             <p>Desarrollo de software basado en Php </p>
+        </div>
+        <div class="servicio">
+            <span class="icono"><i class="fa-solid fa-code"></i></span>
+             <h4>Programación Java</h4>
+             <hr>
+             <ul class="servicios-tag">
+                 <li>Web</li>
+                 <li>Graphic</li>
+                 <li>Lógica</li>
+             </ul>
+             <p>Desarrollo de software basado en Java</p>
+        </div>
+        <div class="servicio">
+            <span class="icono"><i class="fa-solid fa-code"></i></span>
+             <h4>Programación Python</h4>
+             <hr>
+             <ul class="servicios-tag">
+                 <li>Web</li>
+                 <li>Graphic</li>
+                 <li>Lógica</li>
+             </ul>
+             <p>Desarrollo de software basado en Python</p>
+        </div>
+
+       </div>
+
+   </section>
+   <!-- SECCION HABILIDADES-->
+   <div class="contenedor-skills" id="skills">
+    <h3>HABILIDADES</h3>
+    <div class="skill">
+        <div class="info">
+            <p><span class="lista"></span>Html & Css</p>
+            <span class="porcentaje">50%</span>
+            </div>
+            <div class="barra">
+                <div id="html" class="barra-progreso1"></div>    
+            </div>
+    </div>
+
+    <div class="skill">
+        <div class="info">
+            <p><span class="lista"></span>Java</p>
+            <span class="porcentaje">70%</span>
+            </div>
+            <div class="barra">
+                <div id="java" class="barra-progreso2"></div>    
+            </div>
+    </div>
+    <div class="skill">
+        <div class="info">
+            <p><span class="lista"></span>Php</p>
+            <span class="porcentaje">50%</span>
+            </div>
+            <div class="barra">
+                <div id="php" class="barra-progreso3"></div>    
+            </div>
+    </div>
+    <div class="skill">
+        <div class="info">
+            <p><span class="lista"></span>Python</p>
+            <span class="porcentaje">60%</span>
+            </div>
+            <div class="barra">
+                <div id="python" class="barra-progreso4"></div>    
+            </div>
+    </div>
+    <div class="skill">
+        <div class="info">
+            <p><span class="lista"></span>Base de datos Mysql</p>
+            <span class="porcentaje">60%</span>
+            </div>
+            <div class="barra">
+                <div id="bd" class="barra-progreso5"></div>    
+            </div>
+    </div>
+   </div>
+   <!-- Seccion Portafolio-->
+   <section id="portafolio">
+    <h3 class="titulo-seccion">MIS PROYECTOS</h3>
+      <div class="fila">
+        <div class="proyecto">
+            <div class="overlay"></div>
+            <a href="img/Crud Tuninng.pdf" target="_blank"> <img src="img/Menu.jpg" alt="Crud_tunning"> </a>
+                <div class="info">
+                <h4>Descripción de Proyecto</h4>
+                <p>Diseño y programácion</p>
+                </div>
+        </div>
+        <div class="proyecto">
+            <div class="overlay"></div>
+            <a href="img/Coninventarios.pdf" target="_blank"><img src="img/Saludo Bienvenida.jpg" alt="Coninventarios"></a>
+            <div class="info">
+                <h4>Descripción de Proyecto</h4>
+                <p>Diseño y programácion</p>
+                
+            </div>
+        </div>
+      </div>
+   </section>
+      <!-- SECCTION C O N T A C T O -->
+      <section id="contacto">
+        <h3 class="titulo-seccion">Contactame ahora</h3>
+        <div class="contenedor-form">
+            <form action="https://formsubmit.co/cruz03christian@gmail.com" method="POST">
+                <div class="fila mitad">
+                    <input type="text" name="Nombre Completo" required placeholder="Nombre Completo *" class="input-mitad">
+                    <input type="text" name="Telefono" placeholder="Teléfono*" class="input-mitad">
+                    <input type="email" name="Email" required placeholder="Dirección de Email" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <input type="text" name="Asunto" required placeholder="Asunto..." class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="Mensaje" required id="" cols="30" rows="10" placeholder="Tu Mensaje..." class="input-full"></textarea>
+                </div>
+
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+                <input type="hidden" name="_next" value="https://cristiancruz01.github.io/cristiancruz01.github.io">
+                <input type="hidden" name="_captcha" value="false">
+            </form>
+        </div>
+    </section>
+
+    <!-- SECCION FOOTER -->
+    <footer>
+        <p>Todos los derechos reservados - 2023</p>
+        <div class="redes">
+            <a href="https://www.youtube.com/channel/UC2A9XBXGNpFiSEM-Kr3FVPg" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.facebook.com/cristian.cruz.9849/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/doulos_music/" target="_blank"><i class="fa-brands fa-instagram-square"></i></a>
+        </div>
+
+    </footer>
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/script.js"> </script>
+
+</body>
+</html>
